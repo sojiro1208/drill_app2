@@ -7,6 +7,6 @@ class PostsController < ApplicationController
   end
 
   def create
-    Post.create(memo: params[:memo]
+    Post.create(memo: params[:memo])
   end
 end
